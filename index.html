@@ -80,43 +80,37 @@
     </div>
 
     <div class="container col-8 mb-5">
-        <div class="row">
-          <div class="col-12">
-            <div class="card mb-4">
-              <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs" id="bologna-list" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#Dez/2022" role="tab" aria-controls="Dez/2022" aria-selected="true">Dez/2022</a>
-                  </li>
-                  <!-- <li class="nav-item">
-                    <a class="nav-link"  href="#Out/2022" role="tab" aria-controls="Out/2022" aria-selected="false">Out/2022</a>
-                  </li> -->
-                </ul>
-              </div>
-              <div class="card-body">
-                
-                 <div class="tab-content mt-3">
-                  <div class="tab-pane active" id="Dez/2022" role="tabpanel">
-                    <h4 class="card-title">Dezembro 2022</h4>
-                    <p class="card-text my-3"> - Extração: 01/02/2023<br> - Disponibilização: 02/02/2023</p>
+      <div class="row">
+        <div class="col-12">
+          <div class="card mb-4">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs" id="bnafar" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="jan2023-tab" data-toggle="tab" href="#jan2023" role="tab" aria-controls="jan2023" aria-selected="true">Jan/2023</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="dez2022-tab" data-toggle="tab" href="#dez2022" role="tab" aria-controls="dez2022" aria-selected="false">Dez/2022</a>
+                </li>
+              </ul>
+            </div>
+              <div class="tab-content card-body" id="bnafarContent">
+                <div class="tab-pane fade show active" id="jan2023" role="tabpanel" aria-labelledby="jan2023-tab">
+                  <h4 class="card-title">Janeiro 2023</h4>
+                    <p class="card-text my-3"> - Extração: 13/03/2023<br> - Disponibilização: 20/03/2023</p>
                     <a href="./arquivos/status_mensal/extracao/monitoramento_envio_dados_bnafar_2022_12.xlsx" class="btn btn-primary">Baixar</a>
                     <a class="btn btn-danger" href="./arquivos/status_mensal/orientacoes/orientacoes_status_envio_dados_bnafar.pdf" target="_blank" role="button">Orientações</a>
-                  </div>
-                   
-                  <!-- <div class="tab-pane" id="Out/2022" role="tabpanel" aria-labelledby="history-tab">  
-                    <h4 class="card-title">Outubro</h4>
-                    <h6 class="card-subtitle mb-2">2022</h6>
-                    <p class="card-text my-3"> - Extração: 01/11/2022<br> - Disponibilização: 02/11/2022<br> - Última atualização: 03/11/2022</p>
-                    <a href="#" class="btn btn-primary">Baixar</a>
-                    <a class="btn btn-danger" href="#" target="_blank" role="button">Orientações</a>
-                  </div> -->
-                   
+                </div>
+                <div class="tab-pane fade" id="dez2022" role="tabpanel" aria-labelledby="dez2022-tab">
+                  <h4 class="card-title">Dezembro 2022</h4>
+                  <p class="card-text my-3"> - Extração: 01/02/2023<br> - Disponibilização: 20/03/2023</p>
+                  <a href="./arquivos/status_mensal/extracao/monitoramento_envio_dados_bnafar_2022_12.xlsx" class="btn btn-primary">Baixar</a>
+                  <a class="btn btn-danger" href="./arquivos/status_mensal/orientacoes/orientacoes_status_envio_dados_bnafar.pdf" target="_blank" role="button">Orientações</a>
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
+    </div>
 
       <!-- <div class="container col-8">
         <hr/>
@@ -129,37 +123,49 @@
     <div class="container col-8 mb-5">
       <div class="row">
         <div class="col-12">
-          <div class="card mb-5">
+          <div class="card mb-4">
             <div class="card-header">
-              <ul class="nav nav-tabs card-header-tabs" id="bologna-list2" role="tablist">
+              <ul class="nav nav-tabs card-header-tabs" id="bnafar" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#o1c2023" role="tab" aria-controls="o1c2023" aria-selected="true">1º ciclo 2023</a>
+                  <a class="nav-link active" id="2c2023-tab" data-toggle="tab" href="#2c2023" role="tab" aria-controls="2c2023" aria-selected="true">2º ciclo/2023</a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link"  href="#Out/2022" role="tab" aria-controls="Out/2022" aria-selected="false">Out/2022</a>
-                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" id="1c2023-tab" data-toggle="tab" href="#1c2023" role="tab" aria-controls="1c2023" aria-selected="false">1º ciclo/2023</a>
+                </li>
               </ul>
             </div>
-            <div class="card-body">
-              
-               <div class="tab-content mt-3">
-                <div class="tab-pane active" id="o1c2023" role="tabpanel">
-                  <h4 class="card-title">1º ciclo 2023</h4>
-                  <p class="card-text"> - Última atualização: 09/02/2023</p>
-                  <a href="./arquivos/qualifarsus/ciclo_01_2023/2023.02.09_Status_Qualifar_SUS_1_ciclo_2023.xlsx" class="btn btn-primary">Baixar</a>
+              <div class="tab-content card-body" id="bnafarContent">
+                <div class="tab-pane fade show active" id="2c2023" role="tabpanel" aria-labelledby="2c2023-tab">
+                  <h4 class="card-title">2º ciclo/2023</h4>
+                  <p class="card-text my-3">- Última disponibilização: 20/03/2023</p>
+                    <a href="./arquivos/status_mensal/extracao/monitoramento_envio_dados_bnafar_2022_12.xlsx" class="btn btn-primary">Baixar última versão</a>
+                    <!-- botao versoes anteriores -->
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-secondary">Versões anteriores</button>
+                      <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">22/03/2023</a>
+                      </div>
+                    </div>  
                 </div>
-                 
-                <!-- <div class="tab-pane" id="Out/2022" role="tabpanel" aria-labelledby="history-tab">  
-                  <h4 class="card-title">Outubro</h4>
-                  <h6 class="card-subtitle mb-2">2022</h6>
-                  <p class="card-text my-3"> - Extração: 01/11/2022<br> - Disponibilização: 02/11/2022<br> - Última atualização: 03/11/2022</p>
-                  <a href="#" class="btn btn-primary">Baixar</a>
-                  <a class="btn btn-danger" href="#" target="_blank" role="button">Orientações</a>
-                </div> -->
-                 
+                <div class="tab-pane fade" id="1c2023" role="tabpanel" aria-labelledby="1c2023-tab">
+                  <h4 class="card-title">1º ciclo/2023</h4>
+                  <p class="card-text my-3">- Versão final: 20/03/2023</p>
+                  <a href="./arquivos/status_mensal/extracao/monitoramento_envio_dados_bnafar_2022_12.xlsx" class="btn btn-primary">Baixar versão final</a>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary">Versões anteriores</button>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Sem versões anteriores</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -196,6 +202,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
     </body>
 </html>
