@@ -15,48 +15,7 @@
     <link href="album.css" rel="stylesheet">
     <!-- icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  
-<style>
-.bnafar-panel{
-    background:linear-gradient(135deg,#00756F,#00756F);
-    border-radius:16px;
-    padding:30px;
-    margin-bottom:30px;
-    box-shadow:0 6px 20px rgba(0,0,0,.15);
-}
-.bnafar-panel h1{
-    color:#fff;
-    font-weight:600;
-}
-.bnafar-panel p{
-    color:rgba(255,255,255,.9);
-}
-.bnafar-panel img{
-    border-radius:10px;
-    background:#fff;
-    padding:8px;
-}
-
-.section-blue-panel{
-    background:linear-gradient(135deg,#00756F,#00756F); /* gradiente uniforme na nova cor */
-    border-radius:16px;
-    padding:30px;
-    margin-bottom:30px;
-    box-shadow:0 6px 20px rgba(0,0,0,.15);
-}
-.section-blue-panel h1,
-.section-blue-panel h2,
-.section-blue-panel h3,
-.section-blue-panel h4,
-.section-blue-panel h5,
-.section-blue-panel h6,
-.section-blue-panel p{
-    color:#fff; /* mantém o texto branco para contraste */
-}
-
-</style>
-
-</head>
+  </head>
 
 
 <!-- CABECALHO  -->
@@ -91,11 +50,7 @@
           <div class="container d-flex justify-content-between">
             <a href="#" class="navbar-brand d-flex align-items-center">
               <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg> -->
-			   <a href="#" class="navbar-brand d-flex align-items-center">
-			<img src="./images/Bnafar.png"
-			alt="Logo BNAFAR"
-			style="height:50px; margin-right:15px;">
-              <strong>BNAFAR - Monitoramento de Envio de Dados</strong>
+              <strong>Status de envio Bnafar</strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -109,7 +64,7 @@
 
 
       <div class="container col-8">
-        <div class="jumbotron jumbotron-fluid section-blue-panel">
+        <div class="jumbotron jumbotron-fluid">
             <h1 class="display-4">Envio de dados Bnafar</h1>
             <p class="lead">O Departamento de Assistência Farmacêutica e Insumos Estratégicos do Ministério da Saude (DAF/SECTICS/MS) 
                 disponibiliza mensalmente o status de envio de dados pelos municípios e estados para a Base Nacional de Dados de Ações e Serviços da 
@@ -131,16 +86,16 @@
 <!-- STATUS BNAFAR  -->
 
 
-<div class="container col-8 mb-5">
-    <div class="bnafar-panel">
-        <h1>📊 Status Mensal - Envio de Dados para a BNAFAR</h1>
-        <p>Clique na imagem abaixo para acessar o painel de monitoramento.</p>
-        <div class="row justify-content-center">
-            <div class="col-md-10 text-center">
+    <div class="container col-8 mb-4">
+        <h1 class="display-6">Status mensal - Envio de dados para a Bnafar - SMS </h1>
+    </div>
 
-          <h5><span style="font-size: 12px; color: lightslategray; padding-left: 10px;">  Clique na imagem abaixo para visualizar</span></h5>
-          <a href="https://app.powerbi.com/view?r=eyJrIjoiN2VjNzY4MDctNWI3MS00YjY5LTliYTktYjFmNDE2ZjcxOThhIiwidCI6IjlhNTU0YWQzLWI1MmItNDg2Mi1hMzZmLTg0ZDg5MWU1YzcwNSJ9" target="_blank">
-            <img src="./images/dasboard.png" class="img-fluid" alt="dasboard_municipios">
+    <div class="container col-8 mb-5">
+      <div class="row">
+        <div class="col-6">
+          <h5>Municípios<span style="font-size: 12px; color: lightslategray; padding-left: 10px;">  Clique na imagem abaixo para visualizar</span></h5>
+          <a href="https://lookerstudio.google.com/reporting/9f4ae971-614c-4d68-98e2-9aef9df915d2" target="_blank">
+            <img src="./images/dasboard_sms.png" class="img-fluid" alt="dasboard_municipios">
           </a>
         </div>
 <!--        <div class="col-6">
@@ -152,16 +107,10 @@
       </div>
     </div>
 	
-
-            </div>
-        </div>
-    </div>
-</div>
-	
 <!-- STATUS BNAFAR SES -->
 
 
-<!--
+
     <div class="container col-8 mb-4">
         <h1 class="display-6">Status mensal - Envio de dados para a Bnafar - SES </h1>
     </div>
@@ -180,32 +129,28 @@
             <img src="./images/dasboard_ses.png" class="img-fluid" alt="dashboard_estados">
           </a>
         </div> -->
-<!--
       </div>
     </div>
 
 <!-- STATUS QUALIFARSUS  -->
 
 
-    <div class="container col-10 mb-8">
+    <div class="container col-8 mb-8">
       <hr/>
     </div>
 
-    <div class="container col-8 mb-5"><div class="section-blue-panel"><h1 class="display-6 text"> 📊Status semanal - Monitoramento Qualifar-SUS</h1>
+    <div class="container col-8">
+        <h1 class="display-6">Status semanal - Monitoramento Qualifar-SUS</h1>
+    </div>
 
-<div class="container col-10 mb-5">
+    <div class="container col-8 mb-5">
       <div class="row">
         <div class="col-12">
           <div class="card mb-4">
             <div class="card-header">
               <ul class="nav nav-tabs card-header-tabs" id="bnafar" role="tablist">
-			  	
-				<li class="nav-item">
-				<a class="nav-link active" id="4c2026-tab" data-toggle="tab" href="#4c2026" role="tab" aria-controls="4c2026" aria-selected="true">4º ciclo/2026</a>
-				</li>
-
-				<li class="nav-item">
-				<a class="nav-link" id="3c2026-tab" data-toggle="tab" href="#3c2026" role="tab" aria-controls="3c2026" aria-selected="false">3º ciclo/2026</a>
+			  	<li class="nav-item">
+				<a class="nav-link active" id="3c2026-tab" data-toggle="tab" href="#3c2026" role="tab" aria-controls="3c2026" aria-selected="false">3º ciclo/2026</a>
 				</li>
 				<li class="nav-item">
 				<a class="nav-link" id="2c2026-tab" data-toggle="tab" href="#2c2026" role="tab" aria-controls="2c2026" aria-selected="false">2º ciclo/2026</a>
@@ -257,26 +202,9 @@
 			<div class="tab-content card-body" id="bnafarContent">
 			
 			
-			
-			<div class="tab-pane fade show active" id="4c2026" role="tabpanel" aria-labelledby="4c2026-tab">
-                  <h4 class="card-title text-dark">Agosto, Setembro e Outubro de 2026</h4>
-                  <p class="card-text my-3 text-dark">- Última disponibilização: 03/08/2026</p>
-                    <a href="./arquivos/qualifarsus/ciclo_04_2026/2026.08.03_Status_Qualifar_SUS_4_ciclo_2026.xlsx" class="btn btn-primary">Baixar última versão</a>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-secondary">Versões anteriores</button>
-                      <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="sr-only">Toggle Dropdown</span>
-                      </button>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="./arquivos/qualifarsus/ciclo_03_2026/2026.07.27_Status_Qualifar_SUS_4_ciclo_2026.xlsx">27/07/2026</a>
-                      </div>
-                    </div>
-                </div>
-
-
-			<div class="tab-pane fade" id="3c2026" role="tabpanel" aria-labelledby="3c2026-tab">
-                  <h4 class="card-title text-dark">Maio, Junho e Julho de 2026</h4>
-                  <p class="card-text my-3 text-dark">- Última disponibilização: 27/07/2026</p>
+			<div class="tab-pane fade show active" id="3c2026" role="tabpanel" aria-labelledby="3c2026-tab">
+                  <h4 class="card-title">Maio, Junho e Julho de 2026</h4>
+                  <p class="card-text my-3">- Última disponibilização: 27/07/2026</p>
                     <a href="./arquivos/qualifarsus/ciclo_03_2026/2026.07.27_Status_Qualifar_SUS_3_ciclo_2026.xlsx" class="btn btn-primary">Baixar última versão</a>
                     <!-- botao versoes anteriores -->
                     <div class="btn-group">
@@ -285,7 +213,7 @@
                         <span class="sr-only">Toggle Dropdown</span>
                       </button>
                       <div class="dropdown-menu">
-					  <a class="dropdown-item" href="./arquivos/qualifarsus/ciclo_03_2026/2026.07.22_Status_Qualifar_SUS_3_ciclo_2026.xlsx">22/07/2026</a>
+					  <a class="dropdown-item" href="./arquivos/qualifarsus/ciclo_03_2026/2026.07.22_Status_Qualifar_SUS_3_ciclo_2026.xlsx">27/07/2026</a>
 					  <a class="dropdown-item" href="./arquivos/qualifarsus/ciclo_03_2026/2026.07.13_Status_Qualifar_SUS_3_ciclo_2026.xlsx">13/07/2026</a>
 					  <a class="dropdown-item" href="./arquivos/qualifarsus/ciclo_03_2026/2026.07.09_Status_Qualifar_SUS_3_ciclo_2026.xlsx">09/07/2026</a>
 					  <a class="dropdown-item" href="./arquivos/qualifarsus/ciclo_03_2026/2026.07.01_Status_Qualifar_SUS_3_ciclo_2026.xlsx">01/07/2026</a>
@@ -388,8 +316,8 @@
 				
 			
 			<div class="tab-pane fade" id="3c2025" role="tabpanel" aria-labelledby="2c2025-tab">
-                  <h4 class="card-title text-dark">Maio, Junho e Julho de 2025</h4>
-                  <p class="card-text my-3 text-dark">- Última disponibilização: 31/07/2025</p>
+                  <h4 class="card-title">Maio, Junho e Julho de 2025</h4>
+                  <p class="card-text my-3">- Última disponibilização: 31/07/2025</p>
                     <a href="./arquivos/qualifarsus/ciclo_03_2025/2025.07.31_Status_Qualifar_SUS_3_ciclo_2025.xlsx" class="btn btn-primary">Baixar última versão</a>
                     <!-- botao versoes anteriores -->
                     <div class="btn-group">
@@ -501,8 +429,8 @@
 			
 			
                 <div class="tab-pane fade" id="3c2024" role="tabpanel" aria-labelledby="3c2024-tab">
-                  <h4 class="card-title text-dark">Maio, Junho e Julho de 2024</h4>
-                  <p class="card-text my-3 text-dark">- Última disponibilização: 12/08/2024</p>
+                  <h4 class="card-title">Maio, Junho e Julho de 2024</h4>
+                  <p class="card-text my-3">- Última disponibilização: 12/08/2024</p>
                     <a href="./arquivos/qualifarsus/ciclo_03_2024/2024.08.12_Status_Qualifar_SUS_3_ciclo_2024.xlsx" class="btn btn-primary">Baixar última versão</a>
                     <!-- botao versoes anteriores -->
                     <div class="btn-group">
@@ -678,10 +606,7 @@
         </div>
       </div>
     </div>
-	
-<!-- STATUS QUALIFARSUS  -->
 
-</div></div>
 
 <!-- STATUS FITOTERÁPICOS  -->
 
@@ -689,9 +614,11 @@
       <hr/>
     </div>
 
-    <div class="container col-8 mb-5"><div class="section-blue-panel"><h1 class="display-6 display-6 text">📊Status semanal - Monitoramento Fitoterápicos</h1>
+    <div class="container col-8">
+        <h1 class="display-6">Status semanal - Monitoramento Fitoterápicos </h1>
+    </div>
 
-<div class="container col-10 mb-5">
+    <div class="container col-8 mb-5">
       <div class="row">
         <div class="col-12">
           <div class="card mb-4">
@@ -699,7 +626,7 @@
               <ul class="nav nav-tabs card-header-tabs" id="bnafar" role="tablist">
 			  
 			  <li class="nav-item">
-				<a class="nav-link active" id="Fitoterápicos-tab" data-toggle="tab" href="#Fitoterápicos" role="tab" aria-controls="Fitoterápicos" aria-selected="false">Envio Fitoterápicos </a>
+				<a class="nav-link active" id="Fitoterápicos-tab" data-toggle="tab" href="#Fitoterápicos" role="tab" aria-controls="Fitoterápicos" aria-selected="false">Municípios que enviaram dados de movimentação de fitoterápicos à Bnafar </a>
 				</li>
               </ul>
             </div>
@@ -707,8 +634,8 @@
 			<div class="tab-content card-body" id="bnafarContent">
 			
 			<div class="tab-pane fade show active" id="Fitoterápicos_05_2025" role="tabpanel" aria-labelledby="Fitoterápicos_05_2025-tab">
-                  <h4 class="card-title text-dark">Movimentações Fitoterápicos </h4>
-                  <p class="card-text my-3 text-dark">- Última disponibilização: 27/06/2025 - Período 04/06/2023 a 04/06/2025</p>
+                  <h4 class="card-title">Movimentações Fitoterápicos </h4>
+                  <p class="card-text my-3">- Última disponibilização: 27/06/2025 - Período 04/06/2023 a 04/06/2025</p>
                     <a href="./arquivos/fitoterapicos/maio_2025/Movimetações_Fitoterapicos_250627.xlsx" class="btn btn-primary">Movimentações_Fitoterápicos</a>
                     <!-- botao versoes anteriores -->
                     <div class="btn-group">
